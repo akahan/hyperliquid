@@ -189,7 +189,7 @@ pub mod info {
             pub name: String,
             pub sz_decimals: u64,
             pub max_leverage: u64,
-            pub only_isolated: bool,
+            pub only_isolated: Option<bool>,
         }
 
         #[derive(Debug, Serialize, Deserialize)]
